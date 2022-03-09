@@ -1,14 +1,3 @@
-class student 
-{
-    constructor(name)
-    {
-        this.name=name;
-    }
-    display()
-    {
-        console.log("student name is:"+this.name);
-    }
-}
-
-let s=new student("hello");
-s.display();
+const student = {age :20};
+student.age = 40;
+console.log(student.age);
