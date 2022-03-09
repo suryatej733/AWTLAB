@@ -6,7 +6,7 @@ class student
     }
     display()
     {
-        console.log("student name in parent class:"+this.name);
+        console.log("Student name in parent class:"+this.name);
     }
 }
 
